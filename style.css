@@ -92,3 +92,21 @@ body {
     height: 33px;
     width: 100px;
 }
+
+@media only screen and (min-width: 768px) {
+  body {
+    width: 100%;
+  }
+
+  .meniu input {
+    border-radius: 10px;
+    border: 0;
+    color: black;
+    height: 33px;
+    width: 200px;
+    line-height: 155px;
+    font-size: 16px;
+    text-align: center;
+    margin-right: 10px;
+  }
+}
